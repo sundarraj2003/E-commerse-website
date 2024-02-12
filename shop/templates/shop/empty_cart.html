@@ -1,0 +1,16 @@
+{% extends 'shop/layouts/main.html' %}
+{% block title %}
+    cart | Nature
+{% endblock title %}
+{% block content %}
+<section class="bg-light py-4 my-5 " style="min-height: 600px;">
+    <div class="container-fluid">
+        <div class="text-center" style="margin-top: 10vh;">
+            <span style='font-size:100px;'>&#128577;</span>
+            <h1 style="font-size: 36px;color: #333;">Nothing to Your Cart</h1>
+            <p style="font-size: 18px;color: #666;">Sorry, there is nothing on your Court</p>
+            <a href="{% url 'home' %}" class="btn btn-primary" id="btnCart"><i class="fa fa-shopping-cart"></i> Shop Now</a>
+        </div>
+    </div>
+</section>
+{%endblock content%}<!DOCTYPE html>
